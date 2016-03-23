@@ -9,7 +9,7 @@ my $kmer=$ARGV[1];
 my $mincov=$ARGV[2];
 my $exp_id;
 $ARGV[0] =~ /(.*?).coverage_25kmer.txt/;
-$exp_id=$1
+$exp_id=$1;
 
 my $current_kmer=0;
 my $current_kmer_start;
